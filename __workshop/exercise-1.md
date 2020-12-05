@@ -17,3 +17,34 @@ Write out each endpoint, its method, and brief description of waht it should do.
 _This activity is more about the discussion in how to best organize data endpoints. There will not be any coding._
 
 ## Your Answer
+| endpoint          | method   | Description                                        |
+| ----------------- | -------- | -------------------------------------------------- |
+| `/customers`      | `GET`    | Retreives a list of customers.                     |
+| ----------------- | -------- | ---------------------------------------------------|
+| `/customer/:id`   | `GET`    | Retrieves a specific customer .                    |
+| ----------------- | -------- | ---------------------------------------------------|
+| `/products`       | `GET`    | Retreives a list of products.                      |
+| ----------------- | -------- | ---------------------------------------------------|
+| `/product/:id`    | `GET`    | Retrieves a specific product.                      |
+| ----------------- | -------- | ---------------------------------------------------|
+| `/seatings`       | `GET`    | Retreives a list of the seating in the cafe.       |
+| ----------------- | -------- | ---------------------------------------------------|
+| `/seating/:id`    | `GET`    | Retrieves a specific seating spot.                 |
+| ----------------- | -------- | -------------------------------------------------- |
+| `/customers`      | `POST`   | Creates a new customer.                            |
+| ----------------- | -------- | ---------------------------------------------------|
+| `/products`       | `POST`   | Creates a new product.                             |
+| ----------------- | -------- | -------------------------------------------------- |
+| `/seatings`       | `POST`   | Creates a new seating spot.                        |
+| ----------------- | -------- | -------------------------------------------------- |
+| `/customer/:id`   | `PUT`    | Update the information on a specific customer.     |
+| ----------------- | -------- | ---------------------------------------------------|
+| `/product/:id`    | `PUT`    | Update the information on a specific product.      |
+| ----------------- | -------- | -------------------------------------------------- |
+| `/seating/:id`    | `PUT `   | Update the information on a specific seat.         |
+| ----------------- | -------- | -------------------------------------------------- |
+| `/customer/:id`   | `DELETE` | Delete a specific customer.                        |
+| ----------------- | -------- | ---------------------------------------------------|
+| `/product/:id`    | `DELETE` | Delete a specific product.                         |
+| ----------------- | -------- | ---------------------------------------------------|
+| `/seating/:id`    | `DELETE` | Delete a specific seat.                            |
