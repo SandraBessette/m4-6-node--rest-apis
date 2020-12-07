@@ -25,7 +25,7 @@ const handleHangmanGuessLetter = (req, res)=>{
     });
 
     if (wordIndex === -1)
-        res.status(404).json({ status: 404, message: "Word not found" });
+      return res.status(404).json({ status: 404, message: "Word not found" });
     
     const word = words[wordIndex].word;  
     const wordArr = word.split("");
