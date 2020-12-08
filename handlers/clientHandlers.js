@@ -42,7 +42,8 @@ const handleCreatesClient = (req, res)=>{
         clients.push(newClient);
         res.status(201).json({
             status: 201,  
-            data: "Client added to the database"       
+            data: newClient,
+            message: "Client added to the database"       
          }); 
     }        
          
@@ -62,8 +63,9 @@ const handleDeleteClient = (req, res)=>{
     else {       
         clients.splice(removeIndex, 1);
         res.status(200).json({
-            status: 20,  
-            data: "The client was deleted"       
+            status: 200,  
+            data: {},
+            message: "The client was deleted"       
          }); 
     }        
 };
